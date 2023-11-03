@@ -28,23 +28,23 @@
     justify-content: space-between;
 }
 
-.header_wrap .gnb{
+.header_wrap .gnb {
     position: relative;
 }
 
 .header_wrap .gnb>ul {
     display: flex;
-    gap: 30px;
     font-size: 0;
 }
 
 .header_wrap .gnb>ul>li {
+    position: relative;
     width: 140px;
     font-size: 24px;
     text-align: center;
 }
 
-.header_wrap .gnb>ul>li:hover > .sub {
+.header_wrap .gnb:hover>ul>li>.sub {
     display: block;
 }
 
@@ -69,7 +69,7 @@
     line-height: 50px;
 }
 
-.header_wrap .login{
+.header_wrap .login {
     display: flex;
     gap: 5px;
     margin: 20px 0 0 0;
@@ -79,6 +79,7 @@
     font-size: 20px;
     padding: 10px;
 }
+
 /* -----------------메인입니다 -------------------------------------------*/
 .mainVisual {
     margin: 0 0 100px 0;
